@@ -1,0 +1,12 @@
+C:\Users\macbook\Desktop\HiddenVilla\Business\bin\Debug\net6.0\Business.deps.json
+C:\Users\macbook\Desktop\HiddenVilla\Business\bin\Debug\net6.0\Business.dll
+C:\Users\macbook\Desktop\HiddenVilla\Business\bin\Debug\net6.0\Business.pdb
+C:\Users\macbook\Desktop\HiddenVilla\Business\obj\Debug\net6.0\Business.csproj.AssemblyReference.cache
+C:\Users\macbook\Desktop\HiddenVilla\Business\obj\Debug\net6.0\Business.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\macbook\Desktop\HiddenVilla\Business\obj\Debug\net6.0\Business.AssemblyInfoInputs.cache
+C:\Users\macbook\Desktop\HiddenVilla\Business\obj\Debug\net6.0\Business.AssemblyInfo.cs
+C:\Users\macbook\Desktop\HiddenVilla\Business\obj\Debug\net6.0\Business.csproj.CoreCompileInputs.cache
+C:\Users\macbook\Desktop\HiddenVilla\Business\obj\Debug\net6.0\Business.dll
+C:\Users\macbook\Desktop\HiddenVilla\Business\obj\Debug\net6.0\refint\Business.dll
+C:\Users\macbook\Desktop\HiddenVilla\Business\obj\Debug\net6.0\Business.pdb
+C:\Users\macbook\Desktop\HiddenVilla\Business\obj\Debug\net6.0\ref\Business.dll
