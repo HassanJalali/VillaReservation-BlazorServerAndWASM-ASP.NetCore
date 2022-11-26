@@ -83,3 +83,9 @@ C:\Users\macbook\Desktop\HiddenVilla\HiddenVilla_Server\bin\Debug\net6.0\runtime
 C:\Users\macbook\Desktop\HiddenVilla\HiddenVilla_Server\bin\Debug\net6.0\DataAccess.dll
 C:\Users\macbook\Desktop\HiddenVilla\HiddenVilla_Server\bin\Debug\net6.0\DataAccess.pdb
 C:\Users\macbook\Desktop\HiddenVilla\HiddenVilla_Server\obj\Debug\net6.0\HiddenVilla_Server.csproj.CopyComplete
+C:\Users\macbook\Desktop\HiddenVilla\HiddenVilla_Server\bin\Debug\net6.0\AutoMapper.dll
+C:\Users\macbook\Desktop\HiddenVilla\HiddenVilla_Server\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\macbook\Desktop\HiddenVilla\HiddenVilla_Server\bin\Debug\net6.0\Business.dll
+C:\Users\macbook\Desktop\HiddenVilla\HiddenVilla_Server\bin\Debug\net6.0\Models.dll
+C:\Users\macbook\Desktop\HiddenVilla\HiddenVilla_Server\bin\Debug\net6.0\Business.pdb
+C:\Users\macbook\Desktop\HiddenVilla\HiddenVilla_Server\bin\Debug\net6.0\Models.pdb

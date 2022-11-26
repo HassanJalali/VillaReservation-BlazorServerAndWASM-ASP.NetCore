@@ -10,3 +10,8 @@ C:\Users\macbook\Desktop\HiddenVilla\Business\obj\Debug\net6.0\Business.dll
 C:\Users\macbook\Desktop\HiddenVilla\Business\obj\Debug\net6.0\refint\Business.dll
 C:\Users\macbook\Desktop\HiddenVilla\Business\obj\Debug\net6.0\Business.pdb
 C:\Users\macbook\Desktop\HiddenVilla\Business\obj\Debug\net6.0\ref\Business.dll
+C:\Users\macbook\Desktop\HiddenVilla\Business\bin\Debug\net6.0\DataAccess.dll
+C:\Users\macbook\Desktop\HiddenVilla\Business\bin\Debug\net6.0\Models.dll
+C:\Users\macbook\Desktop\HiddenVilla\Business\bin\Debug\net6.0\DataAccess.pdb
+C:\Users\macbook\Desktop\HiddenVilla\Business\bin\Debug\net6.0\Models.pdb
+C:\Users\macbook\Desktop\HiddenVilla\Business\obj\Debug\net6.0\Business.csproj.CopyComplete

@@ -1,3 +1,4 @@
+using Business.Repository;
 using Business.Repository.IRepository;
 using DataAccess.Data;
 using HiddenVilla_Server.Data;
@@ -10,6 +11,7 @@ builder.Services.AddDbContext<ApplicationDbContext>(options =>
 {
     options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection"));
 });
+builder.Services.AddScoped<IHotelRoomRepository, HotelRoomRepository>();
 builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
 builder.Services.AddRazorPages();
 builder.Services.AddServerSideBlazor();
