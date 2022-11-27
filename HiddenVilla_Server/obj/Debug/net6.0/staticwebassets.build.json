@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "eINLlorQ9jQz5D2QP7HgngsKSPZG9k2+dVd6irXOOgU=",
+  "Hash": "HhNdc5j4N+LgdPoyp+e8ajEK/mrx0dBSpkqzieSmK3s=",
   "Source": "HiddenVilla_Server",
   "BasePath": "_content/HiddenVilla_Server",
   "Mode": "Default",
@@ -270,6 +270,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Users\\macbook\\Desktop\\HiddenVilla\\HiddenVilla_Server\\wwwroot\\js\\common.js",
+      "SourceId": "HiddenVilla_Server",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\macbook\\Desktop\\HiddenVilla\\HiddenVilla_Server\\wwwroot\\",
+      "BasePath": "_content/HiddenVilla_Server",
+      "RelativePath": "js/common.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\common.js"
     }
   ]
 }
