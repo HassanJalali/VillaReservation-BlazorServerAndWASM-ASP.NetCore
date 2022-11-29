@@ -9,12 +9,14 @@ using System.Threading.Tasks;
 
 namespace Business.Mapper
 {
-    public class MappingProfile:Profile
+    public class MappingProfile : Profile
     {
         public MappingProfile()
         {
             CreateMap<HotelRoomDTO, HotelRoom>();
             CreateMap<HotelRoom, HotelRoomDTO>();
+
+            CreateMap<HotelRoomImage, HotelRoomImageDTO>().ReverseMap();
         }
     }
 }

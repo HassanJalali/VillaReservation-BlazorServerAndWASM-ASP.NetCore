@@ -50,7 +50,7 @@ namespace Business.Repository
             try
             {
                 IEnumerable<HotelRoomDTO> hotelRoomDTOs =
-                            _mapper.Map<IEnumerable<HotelRoom>, IEnumerable<HotelRoomDTO>>(_context.HotelRooms);
+                            _mapper.Map<IEnumerable<HotelRoom>, IEnumerable<HotelRoomDTO>>(_context.HotelRooms.Include(x => x.HotelRoomImages));
 
                 return hotelRoomDTOs;
             }
@@ -65,7 +65,7 @@ namespace Business.Repository
             try
             {
                 HotelRoomDTO hotelRoom = _mapper.Map<HotelRoom, HotelRoomDTO>(
-                    await _context.HotelRooms.FirstOrDefaultAsync(x => x.Id == roomId));
+                    await _context.HotelRooms.Include(x => x.HotelRoomImages).FirstOrDefaultAsync(x => x.Id == roomId));
 
                 return hotelRoom;
             }
@@ -100,7 +100,6 @@ namespace Business.Repository
                 return null;
             }
         }
-
 
         public async Task<HotelRoomDTO> UpdateHotelRoom(int roomId, HotelRoomDTO hotelRoomDTO)
         {

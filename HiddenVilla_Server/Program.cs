@@ -2,6 +2,8 @@ using Business.Repository;
 using Business.Repository.IRepository;
 using DataAccess.Data;
 using HiddenVilla_Server.Data;
+using HiddenVilla_Server.Service;
+using HiddenVilla_Server.Service.IService;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -12,6 +14,8 @@ builder.Services.AddDbContext<ApplicationDbContext>(options =>
     options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection"));
 });
 builder.Services.AddScoped<IHotelRoomRepository, HotelRoomRepository>();
+builder.Services.AddScoped<IHotelImagesRepository, HotelImagesRepository>();
+builder.Services.AddScoped<IFileUpload, FileUpload>();
 builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
 builder.Services.AddRazorPages();
 builder.Services.AddServerSideBlazor();
