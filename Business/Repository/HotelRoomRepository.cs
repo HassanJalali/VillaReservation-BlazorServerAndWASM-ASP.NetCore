@@ -7,6 +7,7 @@ using Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Security.Cryptography.X509Certificates;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -39,6 +40,16 @@ namespace Business.Repository
             var roomDetails = await _context.HotelRooms.FindAsync(roomId);
             if (roomDetails != null)
             {
+                var allImages = await _context.HotelRoomImages.Where(x => x.RoomId == roomId).ToListAsync();
+                foreach (var image in allImages)
+                {
+                    if (File.Exists(image.RoomImageUrl))
+                    {
+                        File.Delete(image.RoomImageUrl);
+                    }
+                }
+                _context.HotelRoomImages.RemoveRange(allImages);
+
                 _context.HotelRooms.Remove(roomDetails);
                 return await _context.SaveChangesAsync();
             }
