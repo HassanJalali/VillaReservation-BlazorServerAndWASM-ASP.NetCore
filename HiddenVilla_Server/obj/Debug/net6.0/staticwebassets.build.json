@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "HIIh+bJtCI6bYLPCIRjFZrbnvOee+Ttehz+sf+Fi0Rc=",
+  "Hash": "DBWlYmgbgHFfX1AkKSNkcA4tJ/h8uBYiUMXGVOjoh+Y=",
   "Source": "HiddenVilla_Server",
   "BasePath": "_content/HiddenVilla_Server",
   "Mode": "Default",
@@ -16,6 +16,40 @@
     }
   ],
   "Assets": [
+    {
+      "Identity": "C:\\Users\\macbook\\.nuget\\packages\\blazored.texteditor\\1.0.8\\staticwebassets\\Blazored-BlazorQuill.js",
+      "SourceId": "Blazored.TextEditor",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\macbook\\.nuget\\packages\\blazored.texteditor\\1.0.8\\staticwebassets\\",
+      "BasePath": "_content/Blazored.TextEditor",
+      "RelativePath": "Blazored-BlazorQuill.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\macbook\\.nuget\\packages\\blazored.texteditor\\1.0.8\\staticwebassets\\Blazored-BlazorQuill.js"
+    },
+    {
+      "Identity": "C:\\Users\\macbook\\.nuget\\packages\\blazored.texteditor\\1.0.8\\staticwebassets\\quill-blot-formatter.min.js",
+      "SourceId": "Blazored.TextEditor",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\macbook\\.nuget\\packages\\blazored.texteditor\\1.0.8\\staticwebassets\\",
+      "BasePath": "_content/Blazored.TextEditor",
+      "RelativePath": "quill-blot-formatter.min.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\macbook\\.nuget\\packages\\blazored.texteditor\\1.0.8\\staticwebassets\\quill-blot-formatter.min.js"
+    },
     {
       "Identity": "C:\\Users\\macbook\\Desktop\\HiddenVilla\\HiddenVilla_Server\\obj\\Debug\\net6.0\\scopedcss\\bundle\\HiddenVilla_Server.styles.css",
       "SourceId": "HiddenVilla_Server",
@@ -357,6 +391,23 @@
       "OriginalItemSpec": "wwwroot\\RoomImages\\1f8ee35b-1002-4ccf-8ea9-f48ce9f22947.jpg"
     },
     {
+      "Identity": "C:\\Users\\macbook\\Desktop\\HiddenVilla\\HiddenVilla_Server\\wwwroot\\RoomImages\\1fa7a676-9ebc-41c7-be4d-1711ec4a03fb.png",
+      "SourceId": "HiddenVilla_Server",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\macbook\\Desktop\\HiddenVilla\\HiddenVilla_Server\\wwwroot\\",
+      "BasePath": "_content/HiddenVilla_Server",
+      "RelativePath": "RoomImages/1fa7a676-9ebc-41c7-be4d-1711ec4a03fb.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\RoomImages\\1fa7a676-9ebc-41c7-be4d-1711ec4a03fb.png"
+    },
+    {
       "Identity": "C:\\Users\\macbook\\Desktop\\HiddenVilla\\HiddenVilla_Server\\wwwroot\\RoomImages\\229c7550-0241-415c-b40f-0f87b5981109.jpg",
       "SourceId": "HiddenVilla_Server",
       "SourceType": "Discovered",
@@ -527,6 +578,40 @@
       "OriginalItemSpec": "wwwroot\\RoomImages\\557ca11d-a1ea-4231-891d-c61303fe586a.jpg"
     },
     {
+      "Identity": "C:\\Users\\macbook\\Desktop\\HiddenVilla\\HiddenVilla_Server\\wwwroot\\RoomImages\\609a9a71-acf5-4cbc-807e-272a68f0681a.jpg",
+      "SourceId": "HiddenVilla_Server",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\macbook\\Desktop\\HiddenVilla\\HiddenVilla_Server\\wwwroot\\",
+      "BasePath": "_content/HiddenVilla_Server",
+      "RelativePath": "RoomImages/609a9a71-acf5-4cbc-807e-272a68f0681a.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\RoomImages\\609a9a71-acf5-4cbc-807e-272a68f0681a.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\macbook\\Desktop\\HiddenVilla\\HiddenVilla_Server\\wwwroot\\RoomImages\\60ec2d24-f520-4876-86a2-8f1fc94d17d7.png",
+      "SourceId": "HiddenVilla_Server",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\macbook\\Desktop\\HiddenVilla\\HiddenVilla_Server\\wwwroot\\",
+      "BasePath": "_content/HiddenVilla_Server",
+      "RelativePath": "RoomImages/60ec2d24-f520-4876-86a2-8f1fc94d17d7.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\RoomImages\\60ec2d24-f520-4876-86a2-8f1fc94d17d7.png"
+    },
+    {
       "Identity": "C:\\Users\\macbook\\Desktop\\HiddenVilla\\HiddenVilla_Server\\wwwroot\\RoomImages\\6378d7fc-7016-44a2-a9c8-c51f19763d37.jpg",
       "SourceId": "HiddenVilla_Server",
       "SourceType": "Discovered",
@@ -559,6 +644,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\RoomImages\\72c9b255-6397-44d5-be2d-da18b9850d9d.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\macbook\\Desktop\\HiddenVilla\\HiddenVilla_Server\\wwwroot\\RoomImages\\79ab50e6-16ea-4809-8423-1849780ebbee.png",
+      "SourceId": "HiddenVilla_Server",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\macbook\\Desktop\\HiddenVilla\\HiddenVilla_Server\\wwwroot\\",
+      "BasePath": "_content/HiddenVilla_Server",
+      "RelativePath": "RoomImages/79ab50e6-16ea-4809-8423-1849780ebbee.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\RoomImages\\79ab50e6-16ea-4809-8423-1849780ebbee.png"
     },
     {
       "Identity": "C:\\Users\\macbook\\Desktop\\HiddenVilla\\HiddenVilla_Server\\wwwroot\\RoomImages\\7b304d37-4713-4625-9954-73c94869cf26.png",
@@ -629,6 +731,23 @@
       "OriginalItemSpec": "wwwroot\\RoomImages\\9be9c67b-4964-4a5a-a71d-f1a128212170.png"
     },
     {
+      "Identity": "C:\\Users\\macbook\\Desktop\\HiddenVilla\\HiddenVilla_Server\\wwwroot\\RoomImages\\a1482817-7fb6-4e52-93b9-4d948403b3f6.jpg",
+      "SourceId": "HiddenVilla_Server",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\macbook\\Desktop\\HiddenVilla\\HiddenVilla_Server\\wwwroot\\",
+      "BasePath": "_content/HiddenVilla_Server",
+      "RelativePath": "RoomImages/a1482817-7fb6-4e52-93b9-4d948403b3f6.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\RoomImages\\a1482817-7fb6-4e52-93b9-4d948403b3f6.jpg"
+    },
+    {
       "Identity": "C:\\Users\\macbook\\Desktop\\HiddenVilla\\HiddenVilla_Server\\wwwroot\\RoomImages\\a3619ad5-ccb8-41f9-8480-0fffefd982f5.jpg",
       "SourceId": "HiddenVilla_Server",
       "SourceType": "Discovered",
@@ -661,6 +780,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\RoomImages\\a759c2cc-b7cd-4401-aadc-f3106ffc3d37.png"
+    },
+    {
+      "Identity": "C:\\Users\\macbook\\Desktop\\HiddenVilla\\HiddenVilla_Server\\wwwroot\\RoomImages\\a996767b-0335-45bf-88b9-e6f5c19d3afe.jpg",
+      "SourceId": "HiddenVilla_Server",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\macbook\\Desktop\\HiddenVilla\\HiddenVilla_Server\\wwwroot\\",
+      "BasePath": "_content/HiddenVilla_Server",
+      "RelativePath": "RoomImages/a996767b-0335-45bf-88b9-e6f5c19d3afe.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\RoomImages\\a996767b-0335-45bf-88b9-e6f5c19d3afe.jpg"
     },
     {
       "Identity": "C:\\Users\\macbook\\Desktop\\HiddenVilla\\HiddenVilla_Server\\wwwroot\\RoomImages\\ab3ddbe8-d482-4a70-b45f-8fe444834bbf.png",
@@ -697,6 +833,40 @@
       "OriginalItemSpec": "wwwroot\\RoomImages\\af8da0d3-c3cb-4ed9-a53d-df4742b2994c.jpg"
     },
     {
+      "Identity": "C:\\Users\\macbook\\Desktop\\HiddenVilla\\HiddenVilla_Server\\wwwroot\\RoomImages\\b5d61563-14a9-4c11-ba2b-3d43d7f2cf9f.png",
+      "SourceId": "HiddenVilla_Server",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\macbook\\Desktop\\HiddenVilla\\HiddenVilla_Server\\wwwroot\\",
+      "BasePath": "_content/HiddenVilla_Server",
+      "RelativePath": "RoomImages/b5d61563-14a9-4c11-ba2b-3d43d7f2cf9f.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\RoomImages\\b5d61563-14a9-4c11-ba2b-3d43d7f2cf9f.png"
+    },
+    {
+      "Identity": "C:\\Users\\macbook\\Desktop\\HiddenVilla\\HiddenVilla_Server\\wwwroot\\RoomImages\\baa98f1c-628e-4ac5-ad3d-e758cc28dc0d.jpg",
+      "SourceId": "HiddenVilla_Server",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\macbook\\Desktop\\HiddenVilla\\HiddenVilla_Server\\wwwroot\\",
+      "BasePath": "_content/HiddenVilla_Server",
+      "RelativePath": "RoomImages/baa98f1c-628e-4ac5-ad3d-e758cc28dc0d.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\RoomImages\\baa98f1c-628e-4ac5-ad3d-e758cc28dc0d.jpg"
+    },
+    {
       "Identity": "C:\\Users\\macbook\\Desktop\\HiddenVilla\\HiddenVilla_Server\\wwwroot\\RoomImages\\be582ff3-003e-4cdb-ad60-1dfa587d7c1b.jpg",
       "SourceId": "HiddenVilla_Server",
       "SourceType": "Discovered",
@@ -729,6 +899,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\RoomImages\\c1af75ee-7397-496b-9be8-87caae91961e.png"
+    },
+    {
+      "Identity": "C:\\Users\\macbook\\Desktop\\HiddenVilla\\HiddenVilla_Server\\wwwroot\\RoomImages\\c403677e-8e1f-4d89-ab1b-c98e1ac6aa7d.png",
+      "SourceId": "HiddenVilla_Server",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\macbook\\Desktop\\HiddenVilla\\HiddenVilla_Server\\wwwroot\\",
+      "BasePath": "_content/HiddenVilla_Server",
+      "RelativePath": "RoomImages/c403677e-8e1f-4d89-ab1b-c98e1ac6aa7d.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\RoomImages\\c403677e-8e1f-4d89-ab1b-c98e1ac6aa7d.png"
     },
     {
       "Identity": "C:\\Users\\macbook\\Desktop\\HiddenVilla\\HiddenVilla_Server\\wwwroot\\RoomImages\\c6bed08e-f572-4a80-9909-ff4789609f5c.jpg",
@@ -816,6 +1003,40 @@
       "OriginalItemSpec": "wwwroot\\RoomImages\\d874a063-6b5c-466f-9f55-b5ea2deb11a9.png"
     },
     {
+      "Identity": "C:\\Users\\macbook\\Desktop\\HiddenVilla\\HiddenVilla_Server\\wwwroot\\RoomImages\\da28d739-9f64-48f2-902c-62c0b61816a7.jpg",
+      "SourceId": "HiddenVilla_Server",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\macbook\\Desktop\\HiddenVilla\\HiddenVilla_Server\\wwwroot\\",
+      "BasePath": "_content/HiddenVilla_Server",
+      "RelativePath": "RoomImages/da28d739-9f64-48f2-902c-62c0b61816a7.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\RoomImages\\da28d739-9f64-48f2-902c-62c0b61816a7.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\macbook\\Desktop\\HiddenVilla\\HiddenVilla_Server\\wwwroot\\RoomImages\\eb2b5559-6bab-4c99-bc5c-30a98361571d.png",
+      "SourceId": "HiddenVilla_Server",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\macbook\\Desktop\\HiddenVilla\\HiddenVilla_Server\\wwwroot\\",
+      "BasePath": "_content/HiddenVilla_Server",
+      "RelativePath": "RoomImages/eb2b5559-6bab-4c99-bc5c-30a98361571d.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\RoomImages\\eb2b5559-6bab-4c99-bc5c-30a98361571d.png"
+    },
+    {
       "Identity": "C:\\Users\\macbook\\Desktop\\HiddenVilla\\HiddenVilla_Server\\wwwroot\\RoomImages\\ee08c208-fa84-4083-9bdc-2d22d7beae90.jpg",
       "SourceId": "HiddenVilla_Server",
       "SourceType": "Discovered",
@@ -831,6 +1052,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\RoomImages\\ee08c208-fa84-4083-9bdc-2d22d7beae90.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\macbook\\Desktop\\HiddenVilla\\HiddenVilla_Server\\wwwroot\\RoomImages\\ef6fae6b-32c2-4406-bdf7-b2aa47e71769.jpg",
+      "SourceId": "HiddenVilla_Server",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\macbook\\Desktop\\HiddenVilla\\HiddenVilla_Server\\wwwroot\\",
+      "BasePath": "_content/HiddenVilla_Server",
+      "RelativePath": "RoomImages/ef6fae6b-32c2-4406-bdf7-b2aa47e71769.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\RoomImages\\ef6fae6b-32c2-4406-bdf7-b2aa47e71769.jpg"
     }
   ]
 }

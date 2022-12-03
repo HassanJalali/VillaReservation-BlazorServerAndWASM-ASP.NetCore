@@ -1,8 +1,12 @@
 ﻿@page "/hotel-room"
 @using Business.Repository.IRepository
+@using HiddenVilla_Server.Service
+@using HiddenVilla_Server.Service.IService
 @using Models
 @inject IHotelRoomRepository HotelRoomRepository
+@inject IFileUpload FileUpload
 @inject IJSRuntime JSRuntime
+@inject NavigationManager NavigationManager
 
 <div class="row mt-4">
     <div class="col-8">
@@ -36,7 +40,7 @@
                             <td>@room.SqFt</td>
                             <td>
                                 <NavLink href="@($"hotel-room/edit/{room.Id}")" class="btn btn-primary">Edit</NavLink>
-                                <button class="btn btn-danger" @onclick="() =>HandleDelete(room.Id)"></button>
+                                <button @onclick="() =>HandleDelete(room.Id)" class="btn btn-danger">Delete</button>
                             </td>
                         </tr>
                     }
@@ -52,11 +56,12 @@
         </table>
     </div>
 </div>
-<DeleteConfirmation ConfirmationChanged="ConfirmDelete_Click"></DeleteConfirmation>
+<DeleteConfirmation ConfirmationChanged="ConfirmDelete_Click" IsParentComponentProcessing ="IsProcessing"></DeleteConfirmation>
 
 @code {
     private IEnumerable<HotelRoomDTO> HotelRooms { get; set; } = new List<HotelRoomDTO>();
     private int? DeleteRoomId { get; set; } = null;
+    private bool IsProcessing { get; set; } = false;
 
     protected override async Task OnInitializedAsync()
     {
@@ -71,13 +76,22 @@
 
     public async Task ConfirmDelete_Click(bool isConfirmed)
     {
+        IsProcessing = true;
         if (isConfirmed && DeleteRoomId != null)
         {
+            HotelRoomDTO hotelRoom = await HotelRoomRepository.GetHotelRoom(DeleteRoomId.Value);
+            foreach (var image in hotelRoom.HotelRoomImages)
+            {
+                var imageName = image.RoomImageUrl.Replace($"{NavigationManager.BaseUri}RoomImages/", "");
+                FileUpload.DeleteFile(imageName);
+            }
+
             await HotelRoomRepository.DeleteHotelRoom(DeleteRoomId.Value);
             await JSRuntime.ToastrSuccess("Hotel Room Deleted Successfully");
             HotelRooms = await HotelRoomRepository.GetAllHotelRooms();
         }
         await JSRuntime.InvokeVoidAsync("HideDeleteConfirmationModal");
+        IsProcessing = false;
     }
 
 
