@@ -7,3 +7,5 @@
 **3:** ASP.Net Core
 
 **4:** Automapper
+
+**5:** AspNetCore.Identity
