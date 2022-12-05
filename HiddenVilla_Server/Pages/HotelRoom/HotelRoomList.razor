@@ -8,6 +8,7 @@
 @inject IJSRuntime JSRuntime
 @inject NavigationManager NavigationManager
 
+@*@attribute [Authorize] // seconde way of authorize*@
 <div class="row mt-4">
     <div class="col-8">
         <h4 class="card-title text-info">Hotel Room's</h4>
@@ -56,15 +57,23 @@
         </table>
     </div>
 </div>
-<DeleteConfirmation ConfirmationChanged="ConfirmDelete_Click" IsParentComponentProcessing ="IsProcessing"></DeleteConfirmation>
+<DeleteConfirmation ConfirmationChanged="ConfirmDelete_Click" IsParentComponentProcessing="IsProcessing"></DeleteConfirmation>
 
 @code {
     private IEnumerable<HotelRoomDTO> HotelRooms { get; set; } = new List<HotelRoomDTO>();
     private int? DeleteRoomId { get; set; } = null;
     private bool IsProcessing { get; set; } = false;
+    [CascadingParameter]
+    public Task<AuthenticationState> AuthenticationState { get; set; }
 
     protected override async Task OnInitializedAsync()
     {
+        var authenticationState = await AuthenticationState;
+        if (!authenticationState.User.IsInRole(Common.StaticDetail.Role_Admin))
+        {
+            
+            NavigationManager.NavigateTo("/login");
+        }
         HotelRooms = await HotelRoomRepository.GetAllHotelRooms();
     }
 
